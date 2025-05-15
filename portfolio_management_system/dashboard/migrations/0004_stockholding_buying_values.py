@@ -11,10 +11,10 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
-        migrations.AddField(
-            model_name='stockholding',
-            name='buying_values',
-            field=django.contrib.postgres.fields.ArrayField(base_field=django.contrib.postgres.fields.ArrayField(base_field=models.FloatField(default=0), blank=True, size=None), blank=True, default=0, size=None),
-            preserve_default=False,
-        ),
+        # migrations.AddField(
+        #     model_name='stockholding',
+        #     name='buying_values',
+        #     field=django.contrib.postgres.fields.ArrayField(base_field=django.contrib.postgres.fields.ArrayField(base_field=models.FloatField(default=0), blank=True, size=None), blank=True, default=0, size=None),
+        #     preserve_default=False,
+        # ),
     ]
