@@ -9,7 +9,7 @@ chardet==5.2.0
 cryptography==42.0.5
 defusedxml==0.7.1
 Django==5.0.4
-django-allauth==0.61.1
+django-allauth==65.13.0
 idna==3.6
 iso8601==2.1.0
 multidict==6.0.5
